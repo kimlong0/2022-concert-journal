@@ -1,0 +1,114 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  font-size: 10.24px;
+}
+
+:root {
+  font-family: Inter, Helvetica, Arial, sans-serif;
+}
+
+#root {
+  display: flex;
+  justify-content: center;
+  background-color: #f8f8f8
+}
+
+.gray {
+  color: #918E9B;
+}
+
+.App {
+  max-width: 550px;
+  background-color: white;
+}
+
+.navbar {
+  height: 55px;
+  background-color: #F55A5A;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.globe-logo {
+  height: 24px;
+  margin-right: 7px;
+}
+
+.nav-header {
+  font-weight: 500;
+  font-size: 14.5px;
+}
+
+.card-section {
+  margin: 27px 40px;
+  display: flex;
+  flex-direction: column;
+}
+
+.card {
+  border-bottom: 1px solid #F5F5F5;
+}
+
+.card-container {
+  display: flex;
+  height: 168px;
+  margin: 18px 0;
+}
+
+.card-image {
+  width: 125px;
+  height: 168px;
+  display: block;
+  object-fit: cover;
+  border-radius: 5px;
+  margin-right: 19px;
+}
+
+.location-info {
+  display: flex;
+}
+
+.location {
+  margin: 0px 4px;
+  letter-spacing: 0.2em;
+  text-decoration: none;
+  color: #2B283A;
+}
+
+.map-link {
+  margin-left: 8px;
+}
+
+.title {
+  font-weight: 700;
+  font-size: 22px;
+  margin-top: 4px;
+  color: #2B283A
+}
+
+.tour {
+  font-weight: 700;
+  font-size: 9px;
+  margin-bottom: 17px;
+  color: #F55A5A
+}
+
+.trip-duration {
+  font-weight: 700;
+  color: #2B283A;
+}
+
+.location-description {
+  color: #2B283A;
+  margin-top: 9px;
+  line-height: 150%;
+}
+
+.footer {
+  color: #2B283A;
+  margin: 15px 0;
+  text-align: center;
+}
