@@ -1,11 +1,21 @@
 export default [
     {
+        title: "Joji",
+        tour: "Smithereens Tour",
+        location: "WAMU Theater",
+        googleMapsUrl: "https://goo.gl/maps/Bv6iCbiTUcx6WDNr7",
+        date: "6 September, 2022",
+        description: 'Better than expected. Joji wore a Seahawk jersey. "Savage Realm" was one of the best hype man. Stuck in the parking lot after the show. Korean Fried Chicken past midnight.',
+        imageUrl: "joji.jpg",
+        spotify: "https://open.spotify.com/artist/5Rl15oVamLq7FbSb0NNBNy?si=JxDUksG9THSbzCzNumz4LQ"
+    },
+    {
         title: "COIN",
         tour: "Uncanny Valley Tour",
         location: "Showbox Sodo",
         googleMapsUrl: "https://goo.gl/maps/cZAY6tziUxRbCYLw6",
         date: "20 July, 2022",
-        description: "Second time going to COIN's concert. The first time was in November 11, 2021 which was also my first ever concert. Knew all the songs by ❤️.",
+        description: "Second time going to COIN's concert. The first time was on November 11, 2021 which was also my first ever concert. Knew all the songs by ❤️.",
         imageUrl: "coin.jpg",
         spotify: "https://open.spotify.com/artist/0ZxZlO7oWCSYMXhehpyMvE?si=o-U7b0kbR1OPmU999xsK4Q"
     },
@@ -15,7 +25,7 @@ export default [
         location: "Climate Pledge Arena",
         googleMapsUrl: "https://g.page/ClimatePledgeArena",
         date: "28 June, 2022",
-        description: "I didn't realized I was that big of a fan until I saw Sean live. This was the only few shows that was performed the tour was cancelled. Mom plugged the crew with a suite again.",
+        description: "I didn't realize I was such a big fan until I saw Sean live. This was one of the few shows that was performed before the tour was canceled. Mom plugged the crew with a suite again.",
         imageUrl: "sean-mendes.jpg",
         spotify: "https://open.spotify.com/artist/7n2wHs1TKAczGzO7Dd2rGr?si=g9c5Uy9XRriGhE9oSMWXrg"
     },
@@ -25,7 +35,7 @@ export default [
         location: "WAMU Theater",
         googleMapsUrl: "https://goo.gl/maps/Bv6iCbiTUcx6WDNr7",
         date: "12 June, 2022",
-        description: '"She looks so perfect standing there in my american apparel underwear and I know now that I\'m so down." One of the hypest concert! Loudest scream in my life.',
+        description: '"She looks so perfect standing there in my american apparel underwear and I know now that I\'m so down." One of the hypest concerts! Loudest scream in my life.',
         imageUrl: "5sos.jpg",
         spotify: "https://open.spotify.com/artist/5Rl15oVamLq7FbSb0NNBNy?si=JxDUksG9THSbzCzNumz4LQ"
     },
@@ -65,7 +75,7 @@ export default [
         location: "Showbox Seattle",
         googleMapsUrl: "https://goo.gl/maps/e4pBY7wfUP8QYdqm9",
         date: "26 March, 2022",
-        description: "Abstract dancing, girls in the mens room, sister on crutches. It was still great. Got a custom video taken from one of the crew's photographer.",
+        description: "Abstract dancing, girls in the mens room, sister on crutches. Still great though. Got a custom video taken from one of the crew's photographers.",
         imageUrl: "half-alive.jpg",
         spotify: "https://open.spotify.com/artist/7sOR7gk6XUlGnxj3p9F54k?si=bpPd0LJSQJeUd9p24Ja3Kg"
     },
@@ -75,7 +85,7 @@ export default [
         location: "Climate Pledge Arena",
         googleMapsUrl: "https://g.page/ClimatePledgeArena",
         date: "5 March, 2022",
-        description: "Bought the cheapest ticket while on the way to the arena. Fufill my teenage music dreams of seeing \"Radioactive\" live.  Mom plugged me with one of the best seats at an empty suite.",
+        description: "Bought the cheapest ticket while on the way to the arena. Fulfilled my teenage music dreams of seeing \"Radioactive\" live.  Mom plugged me with one of the best seats in an empty suite.",
         imageUrl: "imagine.jpg",
         spotify: "https://open.spotify.com/artist/53XhwfbYqKCa1cC15pYq2q?si=QLUez2BES6KbWpHYguXNmQ"
     },
