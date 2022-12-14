@@ -1,13 +1,25 @@
 import Navbar from "./Navbar"
 import Card from "./Card"
 import Footer from "./Footer"
-import data from "./data.js"
+import { useEffect, useState } from "react"
 
 export default function App() {
-  const cardElements = data.map(item => {
+  const [concertData, setConcertData] = useState([])
+
+  useEffect(() => {
+    fetch('data/data.json')
+    .then((response) => {
+      return response.json();
+    })
+    .then((data) => {
+      setConcertData(data);
+    })
+  }, [])
+
+  const cardElements = concertData.map(item => {
     return <Card 
       key={item.title}
-      item={item}
+      concertData={item}
     />
   })
   return (
